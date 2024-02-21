@@ -16,7 +16,7 @@ function Contact_us() {
 
                             <div className="flex items-center mt-8 text-gray-600">
                                 <svg
-                                    fill="none"
+                                    fill="red"
                                     stroke="currentColor"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
@@ -34,7 +34,7 @@ function Contact_us() {
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                         stroke-width="1.5"
-                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                                        d="M16 11a3 4 0 11-6 0 3 3 0 016 0z"
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
@@ -50,7 +50,7 @@ function Contact_us() {
                                     stroke-linejoin="round"
                                     stroke-width="1.5"
                                     viewBox="0 0 24 24"
-                                    className="w-8 h-8 text-gray-500"
+                                    className="w-8 h-8 text-gray-500 bg-red-400"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -89,9 +89,9 @@ function Contact_us() {
 
                         <form className="p-6 flex flex-col justify-center">
                             <div className="flex flex-col">
-                                <label for="name" className="hidden">
+                                {/* <label for="name" className="hidden">
                                     Full Name
-                                </label>
+                                </label> */}
                                 <input
                                     type="name"
                                     name="name"
@@ -102,9 +102,9 @@ function Contact_us() {
                             </div>
 
                             <div className="flex flex-col mt-2">
-                                <label for="email" className="hidden">
+                                {/* <label for="email" className="hidden">
                                     Email
-                                </label>
+                                </label> */}
                                 <input
                                     type="email"
                                     name="email"
@@ -115,9 +115,9 @@ function Contact_us() {
                             </div>
 
                             <div className="flex flex-col mt-2">
-                                <label for="tel" className="hidden">
+                                {/* <label for="tel" className="hidden">
                                     Number
-                                </label>
+                                </label> */}
                                 <input
                                     type="tel"
                                     name="tel"

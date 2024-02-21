@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      hgvgyvuyhuvhvhb
+     in this project we are not usinf app.jsx
      
     </>
   )
